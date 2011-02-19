@@ -1,0 +1,39 @@
+Koolkit started as a learning experience for me in writing WordPress Plugins.
+I started off a bit rough with a few simple applications. Then while at a meetup
+I met some people with a real need. This became the Kool Preview option. That
+was the first real plugin I created. It is really just a cool function to add
+to your theme and it is very self contained.
+
+The second add on feature was the Kool Weather function. That one was a lot more
+complicated. It took me a while to learn YQL, REST, JSON and then I hit gaps in
+my PHP knowledge! There is no learning without pain, so said a professor at my
+college and he was right.
+
+So now Koolkit is ready for your own installation. Here is what you do. Download
+this whole thing into a directory called Koolkit and then zip it. Go to your
+Wordpress installation and add a new plugin. Select upload and find the zip
+on your disk. There isn't any real configuration needed. It will just work.
+
+To customize this is easy. The CSS file has several clearly labled classes. You
+can make Koolkit output fit your needs. You can get really clever!
+
+To add the preview just open up your index.php file in your theme folder and 
+add the following function where you want the preview to show up:
+
+<?php kool_preview_boxes(); ?>
+
+It is that easy.
+
+For weather, right now we have a short code you can use in your posts.
+
+[KoolWeather location='your location']
+
+Location can be something like 'Nashville, TN' -- try different locations. Caen,
+France works. Addis Abeba, Ethiopia does too. If a location doesn't work, look
+it up in wikipedia to see if there are alternate variations it might be known
+as and try those.
+
+An update will allow you to switch from the default being Farenheit to Celsius.
+I am pretty sure Yahoo! weather doesn't handle Kelvin yet.
+
+There is more to come. I want there to be 5 Kools in Koolkit #1 so stay tuned.
