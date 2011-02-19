@@ -1,0 +1,56 @@
+/* CSS Document */
+/**
+ * Koolkit CSS
+ * All aspects of Koolkit output can be changed here
+ */  
+.preview_box {
+  align: center;
+  border: 2px solid #a1a1a1;
+  padding: 1px;
+  margin: 5px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  background: #dddddd;
+  width: 30%;
+  float:left;
+  height: 110px;
+  font-size: 100%;
+  line-height: 100% !important;
+}
+.preview_thumb {
+  width: 64px !important;
+  height: auto !important;
+  border: 0;
+  float: left;
+  padding: 5px;
+}
+.koolWeatherBlock {
+  padding: 3px;
+  width: 50%;
+  font-size: 80%;
+  border: 2px solid #a1a1a1;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+.koolAstronomy {
+  text-align: center;
+  font-size: 80%;
+  font-weight: 700;
+  border-style: solid none;
+  border-top-width: thin;
+  border-bottom-width: medium; 
+}
+.koolTemperature {
+  padding: 3px;
+  margin: 3px;
+  float: left;
+  border-style: solid;
+  border-width: medium;
+  width: 25%;
+  text-align: center;
+}
+.koolTempNum {
+  font-size: 250%;
+}
+.koolWeatherDesc {
+}
