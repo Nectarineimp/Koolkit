@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: KoolKit
+Plugin Name: Koolkit
 Plugin URI: http://nectarineimpllc.com/KoolKit
-Description: Fun functions to update your theme or site
-Version: 0.1
+Description: Add post preview to your main page and weather to your posts! A toolkit gives you tools, these are more fun.
+Version: 0.3
 Author: Peter Mancini
-Author URI: http://nectarineimpllc.com/?page_id=8
+Author URI: http://nectarineimpllc.com/team/
 License: Apache License, Version 2.0
 */
 
